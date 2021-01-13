@@ -18,7 +18,13 @@ public class Color {
     this.blue = blue;
   }
 
-  public Color() {
+  @Override
+  public String toString() {
+    return "Color{" +
+        "red=" + red +
+        ", green=" + green +
+        ", blue=" + blue +
+        '}';
   }
 
   public int getRed() {
