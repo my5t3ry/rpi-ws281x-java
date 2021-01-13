@@ -1,5 +1,6 @@
 package com.github.mbelling.ws281x;
 
+
 public class Color {
 
   private int red;
@@ -16,6 +17,22 @@ public class Color {
     this.red = red;
     this.green = green;
     this.blue = blue;
+  }
+
+
+  public void setRed(int red) {
+    this.red = red;
+  }
+
+  public void setGreen(int green) {
+    this.green = green;
+  }
+
+  public void setBlue(int blue) {
+    this.blue = blue;
+  }
+
+  public Color() {
   }
 
   @Override
